@@ -177,6 +177,7 @@ button {
         display: flex;
         flex-direction: column;
         gap: 12px;
+        font-style: normal;
     }
 
     .contacts-link {
@@ -268,7 +269,8 @@ button {
     color: #2e2f42;
 }
 
-.mobile-menu-link.current {
+.mobile-menu-link.current,
+.contacts-link-menu.current {
     color: #404BBF;
 }
 
@@ -284,6 +286,23 @@ button {
   
 .mobile-menu-list li:last-child {
     margin-bottom: 0;
+}
+
+.contacts-list-menu li {
+    margin-bottom: 24px;
+}
+
+.contacts-list-menu li:last-child {
+    margin-bottom: 0;
+}
+
+.contacts-link-menu {
+    color: #434455;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 
