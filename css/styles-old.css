@@ -49,48 +49,15 @@
 
 
 
-.strategy-icon {
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    background: #f4f4fd;
-    padding: 24px 100px;
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
 
-}
 
-.svg-icons {
-    display: flex;
-    justify-content: center;
-}
 
-.strategy-list {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-}
 
-.strategy-item {
-    width: calc((100% - 72px) / 4);
-}
 
-.two-section-title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    margin-bottom: 8px;
-}
 
-.two-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
+
+
 
 .two-section-paragraph {
     font-family: "Roboto", sans-serif;
