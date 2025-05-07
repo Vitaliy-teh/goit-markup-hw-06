@@ -155,6 +155,72 @@ button {
 }
 
 
+.section-team {
+    background-color: #F4F4FD;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.main-title-team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+}
+
+.team-items {
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+}
+
+.name-team {
+    padding: 32px 0;
+}
+
+.section-team-title {
+    /* font-family: "Roboto", sans-serif; */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.section-team-items {
+    /* font-family: "Roboto", sans-serif; */
+    /* font-weight: 400; */
+    /* font-size: 16px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.command-social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+
 
 
 
@@ -221,6 +287,16 @@ button {
     .strategy-item {
         width: calc((100% - 24px) / 2);
     }
+
+    .team-list {
+        gap: 64px 24px;
+    }
+
+    /* .section-team {
+        padding-left: 108px;
+        padding-right: 108px;
+    } */
+    
 
 }
 
@@ -386,7 +462,7 @@ button {
 
 
 
-/* screen */
+/* screen 1158 */
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -511,6 +587,20 @@ button {
 
     .two-section-paragraph {
         font-weight: 400;
+    }
+
+    .section-team {
+        /* background-color: #F4F4FD; */
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-items {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .team-list {
+            gap: 24px;
     }
 
 
