@@ -320,6 +320,145 @@ button {
 
 
 
+.footer-section {
+    background-color: #2E2F42;
+    padding: 96px 0;
+}
+
+.container.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-logo-footer {
+    margin-bottom: 72px;
+}
+
+.logofooter {
+    color: #4d5ae5;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.span-logo {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+    width: 288px;
+}
+
+.footer-text.footer {
+    margin-bottom: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.command-social-list.footer {
+    gap: 16px;
+}
+
+.container-social-footer {
+    margin-bottom: 72px;
+}
+
+.link-social.footer:hover,
+.link-social.footer:focus {
+    background-color: #31d0aa;
+}
+
+.subscribe-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .subscribe-title-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    color: #fff;
+} */
+
+.subscribe-area-footer {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 288px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+    outline: transparent;
+    margin-bottom: 16px;
+}
+
+.subscribe-area-footer::placeholder {
+    color: #fff
+}
+
+.footer-btn {
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+    background-color: #404bbf;
+}
+
+.subscribe-footer-icon-btn {
+    fill: #fff;
+    margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* screen 768 */
@@ -398,6 +537,35 @@ button {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16),
             0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
+
+    .footer-section {
+        padding: 96px 0;
+    }
+
+    .container.footer {
+        align-items: start;
+        justify-content: left;
+    }
+
+    .container-logo-footer {
+        width: 264px;
+        margin-right: 24px;
+    }
+
+    .logofooter {
+        justify-content: start;
+    }
+    
+    .footer-text.footer {
+       text-align: left;
+    }
+
+    
+
+    .command-social-list.footer {
+        justify-content: flex-start;
+        gap: 16px;
     }
 
 
@@ -772,6 +940,12 @@ button {
 
     .portfolio-items:hover .overlay-text {
         transform: translateY(0%);
+    }
+
+
+    .footer-section {
+        background-color: #2E2F42;
+        padding: 100px 0;
     }
 
 

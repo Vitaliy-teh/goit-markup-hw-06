@@ -155,12 +155,12 @@
     color: #434455;
 } */
 
-.footer-section {
+/* .footer-section {
     background-color: #2E2F42;
     padding: 100px 0;
-}
+} */
 
-.logofooter {
+/* .logofooter {
     color: #4d5ae5;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
@@ -171,11 +171,11 @@
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
-}
+} */
 
-.span-logo {
+/* .span-logo {
     color: #f4f4fd;
-}
+} */
 
 .container.footer {
     display: flex;
