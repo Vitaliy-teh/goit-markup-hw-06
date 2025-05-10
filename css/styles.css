@@ -68,7 +68,7 @@ button {
     margin-right: auto;
 }
 
-@media (min-resolution: 2x) {
+@media (min-resolution: 192dpi) {
     .section-solutions {
         background-image: linear-gradient(
             to bottom,
@@ -458,6 +458,7 @@ button {
     width: 100%;
     height: 100%;
     display: flex;
+    z-index: 999;
     justify-content: center;
     align-items: center;
     background-color: rgba(46, 47, 66, 0.4);
@@ -478,14 +479,14 @@ button {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 408px;
-    min-height: 584px;
+    width: 288px;
+    min-height: 623px;
     border-radius: 4px;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 72px 24px 24px 24px;
+    padding: 72px 16px 24px 16px;
     transform: translate(-50%, -50%);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcfcfc;
@@ -631,6 +632,8 @@ button {
 }
 
 .checkbox-title {
+    display: flex;
+    align-items: center;
     color: #8e8f99;
     font-weight: 400;
     font-size: 12px;
@@ -640,6 +643,7 @@ button {
 
 .checkbox-icon {
     display: inline-flex;
+    flex-shrink: 0;
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -656,6 +660,8 @@ button {
 .privacy-policy {
     color: #4d5ae5;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
+    line-height: 1.33;
 }
 
 .send-btn {
@@ -1062,7 +1068,7 @@ button {
 
 }
 
-@media (min-resolution: 2x) {
+@media (min-resolution: 192dpi) {
     .section-solutions {
         background-image: linear-gradient(
             to bottom,
@@ -1468,7 +1474,7 @@ button {
 
 }
 
-@media (min-resolution: 2x) {
+@media (min-resolution: 192dpi) {
     .section-solutions {
         background-image: linear-gradient(
             to bottom,
